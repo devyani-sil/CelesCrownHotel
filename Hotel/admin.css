@@ -1,0 +1,207 @@
+/* admin panel */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}
+
+.admin{
+  display: flex;
+  height: 712px;
+}
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  background-color: #0a0a0a;
+}
+
+.admin .sidebar {
+  height: 100vh;
+  overflow-y: auto;
+}
+.sidebar h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px;
+  padding: 8px;
+  justify-content: center;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.topnav {
+  background-color: #444;
+  padding: 10px;
+  text-align: right;
+}
+
+.topnav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #555;
+}
+.col-lg-10{
+  align-items: center;
+}
+
+
+ /* home */
+
+ .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the boxes horizontally */
+  margin-left: 250px; /* Set the width of the sidebar here */
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 30px;
+  width: calc(50% - 40px); /* Calculate width for two boxes in a row */
+  height: 250px; /* Equal height to make the boxes square-shaped */
+  text-align: center;
+}
+
+/* Rest of the CSS styles for headings and content */
+
+
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.number {
+  color: #007bff;
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.currency {
+  color: #28a745;
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.percentage {
+  color: #ffc107;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.rating {
+  color: #dc3545;
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.description {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* booked */
+
+.table-container {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  color: #666;
+}
+
+.pagination a:hover {
+  background-color: #f2f2f2;
+}
+
+/* check in */
+.badge-success {
+  color: black;
+}
+
+.badge-default {
+  color: black !important;
+  background-color: lightgray; 
+}
+
+/* Styles for the action buttons in the table */
+.action-button {
+  padding: 5px 10px;
+}
+
+
+.mx-auto{
+  position: absolute;
+}
